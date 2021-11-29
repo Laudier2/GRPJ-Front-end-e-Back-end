@@ -154,7 +154,7 @@ def CRETE_REACT():
             cmd = ['gnome-terminal']  # Se estiver usando o GNOME
             cmd.extend(['-x', 'bash', '-c', 'echo ========== INSTALANDO O EXPRESS-GENERATOR VIA NPM =========== &&'
                                             'cd /home/hk/pj-front-end-back-end/ &&'
-                                            'create-react-app {} &&'
+                                            'npx create-react-app {} &&'
                                             'cp -r -f ~/PycharmProjects/pythonProject/GR-PJ/bk_reactjs -t /home/hk/pj-front-end-back-end/ &&'
                                             'echo O projeto esta pronto, e agora instalaremos o react-router-dom &&'
                                             '{} &&'
